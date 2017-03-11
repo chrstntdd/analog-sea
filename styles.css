@@ -22,18 +22,69 @@ header img {
 .signup-card{
     width: 400px;
     background-color: white;
-    margin: 0 auto 0 auto;
+    margin: 20px auto 0 auto;
     padding: 0 40px 0 40px;
     border-radius: 3px;
 }
 
+h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0;
+    font-weight: lighter;
+    color: grey;
+}
+
 input, button {
     width: 320px;
-    border: 2px solid grey;
+    border: 2px solid #e4e4e6;
     padding: 15px;
     border-radius: 3px;
 }
 
+label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#password{
+    margin-bottom: 20px;
+}
+
 button {
     height: 55px;
+    background-color: #5cbb67;
+    color: white;
+    margin-bottom: 10px;
+    border: 2px solid #5cbb67;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: #5eac6c;
+    border: 2px solid #5eac6c;
+}
+
+.forgot-password {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.forgot-password a{
+    color: grey;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+footer p a {
+    color: white;
+    text-decoration: underline;
 }
