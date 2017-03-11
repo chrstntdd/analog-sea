@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name='description' content='Welcome to Analog Sea. Please sign in and get to work.'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" type="css/text" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Analog Sea | Sign Up</title>
 </head>
 
@@ -18,14 +18,16 @@
         </header>
         <div class="signup-card">
             <form class='form-card' action='/signup/' method='POST'>
-                <h1>Sign Up</h1>
+                <h1>Sign up</h1>
                 <fieldset name='login-info'>
                     <label for="email">Email</label>
                     <input type="email" name="email" id='email' placeholder="foo@bar.com" required>
                     <label for="password">Password</label>
                     <input type="password" name='password' id='password' placeholder="1234passw0rd" required>
                     <button type="subtmit">Sign up</button>
-                    <a href="/forgot-password/new">Forgot password?</a>
+                    <div class="forgot-password">
+                        <a href="/forgot-password/new">Forgot password?</a>
+                    </div>
                 </fieldset>
             </form>
         </div>
